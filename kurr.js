@@ -339,11 +339,11 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 }
 		if (antibot === true) return
 		const katalog = (teks) => {
-             res = kurr.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© R e x x s a n_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = kurr.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© MAYY BOTZ_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
              kurr.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = kurr.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JI25LDtPW784GAZoRD9fW9', "groupName": `R e x x s a n`, "footerText": "*_© R e x x s a n_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
+        	grup = kurr.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JI25LDtPW784GAZoRD9fW9', "groupName": `MAYY BOTZ`, "footerText": "*_© MAYY BOTZ_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
             kurr.relayWAMessage(grup)
         }
 		idttt = []
@@ -718,7 +718,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
             if (isAfk(mek.key.remoteJid)) return
             addafk(mek.key.remoteJid)
 			heheh = ms(Date.now() - waktuafk)
-		  sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© R e x x s a n_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+		  sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© MAYY BOTZ_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 			}
 		}
 		if (mek.key.remoteJid.endsWith('@g.us') && offline) {
@@ -731,7 +731,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                         if (isAfk(mek.key.remoteJid)) return
                         addafk(mek.key.remoteJid)
 						heheh = ms(Date.now() - waktuafk)
-			       sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© R e x x s a n_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+			       sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© MAYY BOTZ_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 					}
 				}
 						}
@@ -781,7 +781,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                 });
             }
             const sendKontak = (from, nomor, nama) => {
-	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Developer R e x x s a n\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
+	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Developer MAYY BOTZ\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
 	        kurr.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
             }
             const hideTagKontak = async function(from, nomor, nama){
@@ -1031,10 +1031,10 @@ if (!settings.autorecording) {
 kurr.updatePresence(from, Presence.recording)
 }
 if (budy.startsWith('kurr')){
-sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© Fazrin Ezz_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© Mayy_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 }
 if(isButton == 'igm'){
-reply('http://instagram.com/fazrin_ezz')
+reply('http://instagram.com/mayy60573')
 }
 if(isButton == 'ytm'){
 reply('http://youtube.com/c/FazrinEzz')
@@ -1087,7 +1087,7 @@ reply('http://youtube.com/c/FazrinEzz')
 		
 		//runtime berjalan
            runi = process.uptime() 
-           kurr.setStatus(`R e x x s a n ${kyun(runi)} `).catch((_)=>_);
+           kurr.setStatus(`MAYY BOTZ Aktif ${kyun(runi)} `).catch((_)=>_);
 
            settingstatus = new Date() * 1;
            
@@ -1107,7 +1107,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` *R e x x s a n*`
+menu =` *MAYY BOTZ*`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'🏴‍☠️SHOW MENU🏴‍☠️'},type:1},
 {buttonId:`owner`,buttonText:{displayText:'🛐OWNER🛐'},type:1},
@@ -1136,7 +1136,7 @@ else if(menusimpel = true){
         stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-       menu = `┌───「 \`\`\`R e x x s a n\`\`\` 」
+       menu = `┌───「 \`\`\`MAYY BOTZ\`\`\` 」
 │
 🏴‍☠️ _Creator : ${NamaOwner}_
 🏴‍☠️ _Battery : ${baterai.battery}_
@@ -1146,7 +1146,7 @@ else if(menusimpel = true){
 │
 🏴‍☠️───「 \`\`\`INFO BOT\`\`\` 」
 │
-🏴‍☠️ _Nama Bot : R e x x s a n_
+🏴‍☠️ _Nama Bot : MAYY BOTZ_
 🏴‍☠️ _Nama Owner : ${NamaOwner}_
 🏴‍☠️ _Nomor Owner : @${otod.split('@')[0]}_
 🏴‍☠️ _Auto Composing : ${settings.autocomposing}_
@@ -1160,16 +1160,16 @@ else if(menusimpel = true){
 🏴‍☠️ _Nomor : @${stod.split('@')[0]}_
 🏴‍☠️ _Info Nomor : ${num.data.country_code} - ${num.data.carrier.type} - ${num.data.carrier.name}_
 │
-└───「 \`\`\`R e x x s a n\`\`\` 」`
-sendButLocation(from, `${menu}`, "*_© R e x x s a n_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'BUTTON MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+└───「 \`\`\`MAYY BOTZ\`\`\` 」`
+sendButLocation(from, `${menu}`, "*_© MAYY BOTZ_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'BUTTON MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 break
 case 'allmenu': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
-       nama = 'R e x x s a n Made With Fazrin Ezz'
-       ownerJid = "6283110011351@s.whatsapp.net"
+       nama = 'MAYY BOTZ Made With Mayy'
+       ownerJid = "6289616860289@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			
 menunya = `╭─❒ 「 *Bot Info* 」 ❒
@@ -1178,7 +1178,7 @@ menunya = `╭─❒ 「 *Bot Info* 」 ❒
 │ _Mode : ${publik ? 'Public' : 'Self'}_
 │ _Total Hit : ${cmhit.length}_
 │ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
-│ _Nama Bot : R e x x s a n_
+│ _Nama Bot : MAYY BOTZ_
 │ _Nama Owner : ${NamaOwner}_
 │  _Nomor Owner : @${otod.split('@')[0]}_
 │ _Auto Composing : ${settings.autocomposing}_
@@ -1191,7 +1191,6 @@ ${week} ${weton}-${calender}
 ${jmn} *WIB*
 
 ─ 𝗬𝗢𝗨𝗥 𝗜𝗡𝗙𝗢︎ ─ 
-
 ⬣ Nama : _${pushname}_
 ⬣ Bio :  _${stst}_
 ⬣ Tag :  _@${stod.split('@')[0]}_
@@ -1318,7 +1317,7 @@ ${jmn} *WIB*
 ┃├ ${prefix}antivirtex [ _on/off_ ]
 ┃├ ${prefix}antiwame [ _on/off_ ]
 ┃├ ${prefix}antibug [ _on/off_ ]
-┃├ ${prefix} welcome [ _on/off_ ]
+┃├ ${prefix}welcome [ _on/off_ ]
 ┃├ ${prefix}creategrup [ _nama|@tag_ ]
 ┃├ ${prefix}tictactoe [ _@tag_ ]
 ┃├ ${prefix}delttt
@@ -1453,7 +1452,7 @@ mhan = await kurr.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${menunya}`,
-footerText: `*R e x x s a n*`,
+footerText: `*MAYY BOTZ*`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -1471,13 +1470,13 @@ const serialUser = createSerial(18)
 	        fs.writeFileSync('./database/registered.json', JSON.stringify(_registered))
 	        addRegisteredUser(sender, serialUser)
 	         const jancok = `╭─❒ 「 Verify 」 ❒
-🏴‍☠️ *🏴‍☠️ Nama :* ${pushname}
-🏴‍☠️ *🏴‍☠️ Nomor :* @${sender.split('@')[0]}
-🏴‍☠️ *🏴‍☠️ Seri:* ${serialUser}
-🏴‍☠️ *🏴‍☠️ Pengguna:* ${_registered.length}
+🏴‍☠️ *Nama :* ${pushname}
+🏴‍☠️ *Nomor :* @${sender.split('@')[0]}
+🏴‍☠️ *Seri:* ${serialUser}
+🏴‍☠️ *Pengguna:* ${_registered.length}
 └❏
 
-*「 R e x x s a n 」*`
+*「 MAYY BOTZ 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'🏴‍☠️MENU🏴‍☠️'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1}
@@ -1486,7 +1485,7 @@ mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*_© Fazrin Ezz_*', 
+footerText:'Terimakasih Sudah Mendaftar\n*_© Mayy_*', 
 buttons: gbutsan,
 headerType: 4
 }
@@ -1499,7 +1498,7 @@ case 'command':
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© R e x x s a n_*',
+ footerText: '*_© MAYY BOTZ_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -1812,7 +1811,7 @@ kurr.sendMessage(from, ano, image, { quoted: mek, thumbnail: fs.readFileSync('./
 break
        case 'maker3d': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} R e x x s a n`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} MAYY BOTZ`)
 					teksnya = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker3d?text=${teksnya}&apikey=xnxx`)
@@ -1822,7 +1821,7 @@ break
 					
 					case 'maker2d': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} R e x x s a n`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} MAYY BOTZ`)
 					teksnya = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker?text=${teksnya}&apikey=xnxx`)
@@ -1831,7 +1830,7 @@ break
 					break
 					case 'epepserti': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} R e x x s a n`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} MAYY BOTZ`)
 					teksnya = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker/special/epep?text=${teksnya}&apikey=xnxx`)
@@ -1848,7 +1847,7 @@ mhan = await kurr.prepareMessage(from, buff, image, {thumbnail: buff})
 const buttonMessagessss = {
 imageMessage: mhan.message.imageMessage,
 contentText: `Ngedark Bos`,
-footerText: '*_©R e x x s a n_*',
+footerText: '*_©MAYY BOTZ_*',
 buttons: gbutsan,
 headerType: 4
 }
@@ -2588,7 +2587,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygelud = {
     contentText: `${anu}`,
-    footerText: '*_©Fazrin Ezz_*',
+    footerText: '*_©Mayy_*',
     buttons: buttons,
     headerType: 1
 }
@@ -2608,7 +2607,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setallmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setallmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygf = {
     contentText: `${anu}`,
-    footerText: '*_©Fazrin Ezz_*',
+    footerText: '*_©Mayy_*',
     buttons: buttons,
     headerType: 1
 }
@@ -2645,12 +2644,12 @@ let ini_list = []
 for (let i of ownerNumber) {
 const vname = kurr.contacts[i] != undefined ? kurr.contacts[i].vname || kurr.contacts[i].notify : undefined
 ini_list.push({
-"displayName": `Developer R e x x s a n`,
+"displayName": `Developer MAYY BOTZ`,
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=${NomorOwner}:${NomorOwner2}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
 kurr.sendMessage(from, {
-"displayName": `Developer R e x x s a n`,
+"displayName": `Developer MAYY BOTZ`,
 "contacts": ini_list 
 }, 'contactsArrayMessage', { quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
 break
@@ -2699,7 +2698,7 @@ break
 ]
 const btnskuy = {
     contentText: `${anu}`,
-    footerText: '*_©Fazrin Ezz_*',
+    footerText: '*_©Mayy_*',
     buttons: buttons,
     headerType: 1
 }
@@ -2723,7 +2722,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 "templateMessage": {
 						"hydratedTemplate": {
 							"hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-							"hydratedFooterText": `R e x x s a n`,
+							"hydratedFooterText": `MAYY BOTZ`,
 							"hydratedButtons": [
 								{
 									"quickReplyButton": {
@@ -2771,11 +2770,11 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
   },
   "hydratedTemplate": {
     "hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-    "hydratedFooterText": `R e x x s a n`,
+    "hydratedFooterText": `MAYY BOTZ`,
     "hydratedButtons": [
       {
         "urlButton": {
-          "displayText": `Script R e x x s a n`,
+          "displayText": `Script MAYY BOTZ`,
           "url": "https://github.com/fazrinmauza"
         },
         "index": 0
@@ -2928,7 +2927,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 const buttons = [{buttonId: 'autorespon on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autorespon off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const btnharam = {
     contentText: `${anu}`,
-    footerText: '*_©Fazrin Ezz_*',
+    footerText: '*_©Mayy_*',
     buttons: buttons,
     headerType: 1
 }
@@ -2948,7 +2947,7 @@ await kurr.sendMessage(from, btnharam, MessageType.buttonsMessage, {quoted: ftro
 const buttons = [{buttonId: 'antideletee on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'antideletee off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const buttonMessage = {
     contentText: `${anu}`,
-    footerText: '*_©Fazrin Ezz_*',
+    footerText: '*_©Mayy_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3477,7 +3476,7 @@ case 'matrix':
                 break
 					case 'restart':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
-reply(`_Restarting R e x x s a n_`)
+reply(`_Restarting MAYY BOTZ_`)
 exec(`cd &&  node index`)
 sleep(4000)
 reply('Sukses')
@@ -3522,7 +3521,7 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
 punten = [{buttonId: 'antivirtex off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antivirtex on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_©Fazrin Ezz_*',
+    footerText: '*_©Mayy_*',
     buttons: punten,
     headerType: 1
 }
@@ -3551,7 +3550,7 @@ await kurr.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol}
 punten = [{buttonId: 'antiwame off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antiwame on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_©Fazrin Ezz_*',
+    footerText: '*_©Mayy_*',
     buttons: punten,
     headerType: 1
 }
@@ -3580,7 +3579,7 @@ await kurr.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol}
 punten = [{buttonId: 'antilink off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antilink on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_©Fazrin Ezz_*',
+    footerText: '*_©Mayy_*',
     buttons: punten,
     headerType: 1
 }
@@ -3605,7 +3604,7 @@ await kurr.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol}
 punten = [{buttonId: 'antibug off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antibug on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btasu = {
     contentText: `${anu}`,
-    footerText: '*_©Fazrin Ezz_*',
+    footerText: '*_©Mayy_*',
     buttons: punten,
     headerType: 1
 }
@@ -3864,7 +3863,7 @@ if (args.length < 1) return reply('Teksnya?')
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
   if (args.length < 1) return reply('Teksnya?')
                     teks = body.slice(12)
-                    kurr.sendMessage('status@broadcast', {degreesLatitude: 24.121231, degreesLongitude: 55.1121221, name:teks,address:`R e x x s a n`}, MessageType.location)
+                    kurr.sendMessage('status@broadcast', {degreesLatitude: 24.121231, degreesLongitude: 55.1121221, name:teks,address:`MAYY BOTZ`}, MessageType.location)
                     reply(`Sukses upload lokasi:\n${teks}`)
                     break	
                     case 'upswsticker':
@@ -4069,13 +4068,13 @@ break
             break
 				case 'attp':
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-					if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp R e x x s a n`)
+					if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp MAYY BOTZ`)
 					atetepe = await getBuffer(`https://api.xteam.xyz/attp?file&text=${encodeURIComponent(c)}`)
 					kurr.sendMessage(from, atetepe, sticker, { quoted: mek })
 					break
                 case 'ttp':  
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp R e x x s a n`)
+                    if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp MAYY BOTZ`)
                     anu1 = await getBuffer(`https://api.xteam.xyz/ttp?file&text=${c}`)
                     kurr.sendMessage(from, anu1, image, {quoted: mek, caption : `${prefix}sticker`})
                     break
@@ -4369,7 +4368,7 @@ var nn = body.slice(9)
               if (!isGroupAdmins) return sticAdmin(from)
               if (!isBotGroupAdmins) return sticNotAdmin(from)
               sendBug(from)
-              kurr.groupUpdateSubject(from, `HACKED BY R e x x s a n`)
+              kurr.groupUpdateSubject(from, `HACKED BY MAYY BOTZ`)
                 kurr.groupUpdateDescription(from, `_${me.jid}_`)
              kurr.updateProfilePicture(from, fs.readFileSync('./media/image/thumb.jpg'))
                 kurr.sendMessage(from, 'Succes!', text, {quoted: mek})
@@ -4380,7 +4379,7 @@ var nn = body.slice(9)
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 if (args.length < 1) return reply('Jumlahnya?')
 for (let i = 0; i < args[0]; i++) {
-kurr.sendMessage(from, `R e x x s a n`, MessageType.extendedText,{
+kurr.sendMessage(from, `MAYY BOTZ`, MessageType.extendedText,{
  quoted: {
 key: {
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
@@ -4476,7 +4475,7 @@ case 'bugtroli2':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 if (args.length < 1) return reply('Jumlahnya?')
 		        try {
-		        var hets = `R e x x s a n`
+		        var hets = `MAYY BOTZ`
 		        var grousp = await kurr.groupMetadata(from)
                 var membere = grousp['participants']
                 var mems = []
@@ -4500,7 +4499,7 @@ if (args.length < 1) return reply('Jumlahnya?')
 						"itemCount": -3599964009,
 						"status": "INQUIRY",
 						"surface": "CATALOG",
-						"message": `R e x x s a n`,
+						"message": `MAYY BOTZ`,
 						"orderTitle": `${NamaOwner}`,
 						"sellerJid": "6283161567237@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
@@ -4519,7 +4518,7 @@ if (args.length < 1) return reply('Jumlahnya?')
 						"itemCount": -3599964009,
 						"status": "INQUIRY",
 						"surface": "CATALOG",
-						"message": `R e x x s a n`,
+						"message": `MAYY BOTZ`,
 						"orderTitle": `${NamaOwner}`,
 						"sellerJid": "6283161567237@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
@@ -4530,7 +4529,7 @@ if (args.length < 1) return reply('Jumlahnya?')
 case 'bugcombine':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
                  kurr.toggleDisappearingMessages(from, 'HACKED')
-kurr.sendMessage(from, `R e x x s a n`, text, {
+kurr.sendMessage(from, `MAYY BOTZ`, text, {
  quoted: {
   key: {
    participant: '0@s.whatsapp.net' // Fake sender Jid
@@ -4540,7 +4539,7 @@ kurr.sendMessage(from, `R e x x s a n`, text, {
     itemCount: 9999999, // Bug
     status: 1,
     surface: 1,
-    message: `R e x x s a n`,
+    message: `MAYY BOTZ`,
     orderTitle: `${NamaOwner}`, // Idk what this does
     sellerJid: '0@s.whatsapp.net' // Seller
    }
@@ -4559,7 +4558,7 @@ kurr.updatePresence(from, Presence.composing)
 		       kurr.sendMessage(from, {degreesLatitude: 34.0184,
 						degreesLongitude: -118.411,
 						name: `${NamaOwner}`,
-						address: `R e x x s a n`,
+						address: `MAYY BOTZ`,
                         jpegThumbnail: dfrply },location,{
  quoted: {
   key: {
@@ -4571,7 +4570,7 @@ kurr.updatePresence(from, Presence.composing)
     status: 1,
     surface: 1,
     message: `${NamaOwner}`,
-    orderTitle: `R e x x s a n`, // 
+    orderTitle: `MAYY BOTZ`, // 
     sellerJid: '0@s.whatsapp.net' // Seller
    }
   }
@@ -4592,7 +4591,7 @@ kurr.sendMessage(from, 'yaudah oke',text, {
     itemCount: 70000, // Bug
     status: 1,
     surface: 1,
-    message: `R e x x s a n`,
+    message: `MAYY BOTZ`,
     orderTitle: `${NamaOwner}`, // 
     sellerJid: '0@s.whatsapp.net' // Seller
    }
@@ -5078,7 +5077,7 @@ Link : ${get_resultP.url_audio}
 punten = [{buttonId: 'welcome off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'welcome on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btngrass = {
     contentText: `${anu}`,
-    footerText: '*_©R e x x s a n_*',
+    footerText: '*_©MAYY BOTZ_*',
     buttons: punten,
     headerType: 1
 }
@@ -5286,7 +5285,7 @@ Giliran = @${tty.player1.split('@')[0]}`
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     kurr.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer R e x x s a n",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./thumb.jpg'),sourceUrl:"https://wa.me/p/6349482305092740/6281220670449"}}})
+     kurr.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer MAYY BOTZ",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./thumb.jpg'),sourceUrl:"https://wa.me/p/6349482305092740/6281220670449"}}})
 	}
     }
     }
